@@ -1,0 +1,12 @@
+# Force GitHub to recognize Dart as the primary language
+*.dart linguist-language=Dart
+lib/* linguist-language=Dart
+test/* linguist-language=Dart
+
+# Ignore generated files for language detection
+android/app/src/main/kotlin/* linguist-vendored
+ios/* linguist-vendored
+windows/* linguist-vendored
+linux/* linguist-vendored
+macos/* linguist-vendored
+web/* linguist-vendored
